@@ -16,3 +16,4 @@ const generateToken = (id,role)  => {
         expiresIn : "1d"
     });
 };
+module.exports = generateToken;
